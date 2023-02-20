@@ -1,0 +1,23 @@
+.unity {
+    background: #d3cce3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e9e4f0, #d3cce3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Roselense {
+    background: #e8cbc0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636fa4, #e8cbc0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636fa4, #e8cbc0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.AzurePop {
+    background: #ef32d9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Decent {
+    background: #4ca1af; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c4e0e5, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

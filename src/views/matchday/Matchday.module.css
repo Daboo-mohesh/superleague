@@ -1,0 +1,28 @@
+.mainBanner {
+    margin-top: 2%;
+
+    border-radius: 10px 30px;
+    height: 200px;
+    padding: 2%;
+}
+
+.background {
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+@media screen and (max-width: 500px) {
+    .mainBanner {
+        margin-top: 5%;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .mainBanner {
+        margin-top: 3.5%;
+        height: 200px;
+    }
+}
