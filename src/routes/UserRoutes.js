@@ -1,5 +1,5 @@
 import React, {lazy} from 'react';
-import {Route, Switch, useLocation} from 'react-router-dom';
+import {Route, Switch, useLocation, HashRouter} from 'react-router-dom';
 import UsersLayout from '../layout/UsersLayout';
 import NavMotion from '../layout/NavMotion';
 import CalendarGame from '../views/calendargame/CalendarGame';
@@ -20,39 +20,41 @@ const UserRoutes = () => {
     const location = useLocation();
 
     return (
-        <Route
-            path={[
-                '/home',
-                '/matchday',
-                '/team',
-                '/Clubs',
-                '/Leagues',
-                '/News',
-                '/History',
-                '/TrophyCentre',
-                '/Leagueoverview',
-                '/Cupoverview',
-                '/Calendar'
-            ]}
-        >
-            <UsersLayout>
-                <Switch location={location} key={location.pathname}>
-                    <NavMotion>
-                        <Route path="/home" component={home} />
-                        <Route path="/matchday/:id" component={matchday} />
-                        <Route path="/team/:id" component={team} />
-                        <Route path="/Clubs" component={clubs} />
-                        <Route path="/Leagues" component={league} />
-                        <Route path="/News" component={news} />
-                        <Route path="/History" component={history} />
-                        <Route path="/TrophyCentre" component={trophycentre} />
-                        <Route path="/Leagueoverview/:id" component={leagueoverview} />
-                        <Route path="/Cupoverview/:id" component={cupoverview} />
-                        <Route path="/Calendar" component={calendar} />
-                    </NavMotion>
-                </Switch>
-            </UsersLayout>
-        </Route>
+        <HashRouter>
+            <Route
+                path={[
+                    '/home',
+                    '/matchday',
+                    '/team',
+                    '/Clubs',
+                    '/Leagues',
+                    '/News',
+                    '/History',
+                    '/TrophyCentre',
+                    '/Leagueoverview',
+                    '/Cupoverview',
+                    '/Calendar'
+                ]}
+            >
+                <UsersLayout>
+                    <Switch location={location} key={location.pathname}>
+                        <NavMotion>
+                            <Route path="/home" component={home} />
+                            <Route path="/matchday/:id" component={matchday} />
+                            <Route path="/team/:id" component={team} />
+                            <Route path="/Clubs" component={clubs} />
+                            <Route path="/Leagues" component={league} />
+                            <Route path="/News" component={news} />
+                            <Route path="/History" component={history} />
+                            <Route path="/TrophyCentre" component={trophycentre} />
+                            <Route path="/Leagueoverview/:id" component={leagueoverview} />
+                            <Route path="/Cupoverview/:id" component={cupoverview} />
+                            <Route path="/Calendar" component={calendar} />
+                        </NavMotion>
+                    </Switch>
+                </UsersLayout>
+            </Route>
+        </HashRouter>
     );
 };
 

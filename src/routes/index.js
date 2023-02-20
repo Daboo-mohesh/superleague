@@ -17,7 +17,7 @@ const Routes = () => {
         <AnimatePresence>
             <Suspense fallback={<Loader />}>
                 <Switch>
-                    <Redirect exact from="/free" to={config.defaultPath} />
+                    <Redirect exact from="/" to={config.defaultPath} />
                     <>
                         {/* Routes for authetication pages */}
                         <AuthenticationRoutes />
