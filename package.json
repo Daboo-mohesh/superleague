@@ -2,7 +2,7 @@
     "name": "berry-material-react-free",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://Daboo-mohesh.io",
+    "homepage": "https://Daboo-mohesh.io/superleague",
     "dependencies": {
         "@emotion/react": "^11.1.5",
         "@emotion/styled": "^11.3.0",
@@ -45,12 +45,12 @@
         "yup": "^0.32.9"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -72,3 +72,4 @@
         "sass": "^1.32.11"
     }
 }
+
