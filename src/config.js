@@ -1,6 +1,6 @@
 const config = {
     // basename: only at build time to set, and don't add '/' at end off BASENAME for breadcrumbs,  like '/berry-material-react/react/default'
-    basename: '/SuperLeague',
+    basename: '/superleague',
     defaultPath: '/home',
     fontFamily: `'Roboto', sans-serif`,
     borderRadius: 12,
