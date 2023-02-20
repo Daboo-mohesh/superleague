@@ -2,7 +2,7 @@
     "name": "berry-material-react-free",
     "version": "1.0.0",
     "private": false,
-    "homepage": "https://Daboo-mohesh.io/superleague/#",
+    "homepage": "https://Daboo-mohesh.io/superleague/",
     "dependencies": {
         "@emotion/react": "^11.1.5",
         "@emotion/styled": "^11.3.0",
